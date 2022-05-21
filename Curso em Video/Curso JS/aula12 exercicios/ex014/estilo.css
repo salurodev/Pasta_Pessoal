@@ -1,0 +1,44 @@
+body {
+    background: rgb(139, 179, 231);
+    font-family: 'Kalam', cursive;
+    font-size: 18pt;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: whitesmoke;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 2px 2px 5px rgb(41, 40, 40);
+}
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+footer {
+    color: bisque;
+    text-align: center;
+    font-style: italic;
+}
+
+#imagem {
+    width: 250px;
+    height: 250px;
+}
+
+#copy {
+    border-radius: 10px;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 20px;
+    background-color: black;
+    font-family: 'Kalam', cursive;
+    font-size: 14pt;
+}
