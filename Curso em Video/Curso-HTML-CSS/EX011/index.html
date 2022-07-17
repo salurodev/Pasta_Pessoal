@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+
+<body>
+    <h1>Mídias Dinâmicas</h1>
+    <p>Tente abrir esta página em janelas com tamanhos diferentes!
+    <p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="../img/imagem300x300.jpg" type="image/jpg">
+            <source media="(max-width: 1050px)" srcset="../img/imagem700x700.jpg" type="image/jpg">
+            <img src="../img/imagem1000x1000.jpg" alt="Imagem flexível">
+        </picture>
+
+
+        <picture>
+            <source media="(max-width: 500px)" srcset="../img/ft320x480.jpg" type="image/jpg">
+            <source media="(max-width: 818px)" srcset="../img/ft768x1024.jpg" type="image/jpg">
+            <source media="(max-width: 1330px)" srcset="../img/ft1280x720.jpg" type="image/jpg">
+            <img src="../img/ft1600x900.jpg" alt="Imagem flexível">
+        </picture>
+
+</body>
+
+</html>
