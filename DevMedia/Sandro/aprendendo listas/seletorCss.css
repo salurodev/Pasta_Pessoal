@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(122, 151, 72);
+}
+
+.secao1 {
+    width: 600px;
+    margin: 10px auto;
+}
+
+#caixas {
+    display: flex;
+    flex-direction: row;
+}
+
+.secao1,
+#caixa1,
+#caixa2,
+#caixas {
+    background-color: rgba(169, 169, 169, 0.384);
+    padding: 10px;
+    border: 2px solid darkred;
+    border-radius: 10px;
+    margin: 8px;
+    text-align: justify;
+}
+
+.texto,
+h1 {
+    color: darkblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14pt;
+    text-decoration: underline;
+}
+
+.loren {
+    color: darkgreen;
+}
+
+div a {
+
+    color: #331933;
+    padding: 4px;
+    background-color: #e5e5e5;
+}
+
+.texto2 span,
+.texto-conteudo span {
+    color: red;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+
+}
+
+.titulo h1 {
+    width: 200px;
+    background-color: rgba(169, 169, 169, 0.384);
+    padding: 10px;
+    border: 2px solid darkred;
+    border-radius: 10px;
+    margin: 8px;
+    text-align: justify;
+}
+
+.imagem img {
+    width: 300px;
+    border-radius: 100px 100px 20px 100px;
+    border: 10px dashed rgba(3, 3, 107, 0.5);
+
+}
+
+.imagem {
+    text-align: center;
+    padding: 20px;
+    padding-left: 20px;
+}
