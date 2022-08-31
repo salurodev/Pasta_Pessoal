@@ -1,47 +1,119 @@
 body {
-    background-color: darkolivegreen;
+  background-color: darkolivegreen;
 }
 
 ol {
-    counter-reset:li; /* Inicia o contador */      
-    margin-left:0; /* Remove margin padrão */      
-    padding-left:0; /* Remove padding padrão */  
-  }  
-  
-  ol > li {      
-    position:relative; /* Cria contexto de posicionamento */      
-    margin:0 0 6px 2em; /* margem para abrir espaço para a numeração */      
-    padding:4px 8px; /* Espaçamento em volta do conteúdo */      
-    list-style:none; /* retira a numeração padrãao (o marcador da lista) */      
-    border-top:2px solid #666;      
-    background:#f6f6f6;  
-  }  
-  
-  ol > li:before {      
-    content:counter(li); /* Define um contador como conteúdo */      
-    counter-increment:li; /* Incrementa o contador de 1 */      
-    /* Posicionamento e estilização do número */     
-    position:absolute;      
-    top:-2px;      
-    left:-2em;      
-    -moz-box-sizing:border-box;     
-    -webkit-box-sizing:border-box;      
-    box-sizing:border-box;      
-    width:2em;      /* Espaçamento entre número e texto em navegadores que suportam conteúdo gerado, ams não o posicionam(Camino 2 por exemplo) */      
-    margin-right:8px;      
-    padding:4px;      
-    border: 2px solid black;
-    border-radius: 30%;     
-    color:#fff;      
-    background:blue;      
-    font-weight:bold;      
-    font-family:"Helvetica Neue", Arial, sans-serif;      
-    text-align:center;  
-   }  
-   
-   li ol,  li ul {margin-top:6px;}  
-   ol ol li:last-child {margin-bottom:0;}
+  counter-reset: li;
+  /* Inicia o contador */
+  margin-left: 0;
+  /* Remove margin padrão */
+  padding-left: 0;
+  /* Remove padding padrão */
+}
 
-   ul {
-    font-size: 40px;
-   }
+ol>li {
+  position: relative;
+  /* Cria contexto de posicionamento */
+  margin: 0 0 6px 2em;
+  /* margem para abrir espaço para a numeração */
+  padding: 4px 8px;
+  /* Espaçamento em volta do conteúdo */
+  list-style: none;
+  /* retira a numeração padrãao (o marcador da lista) */
+  border-top: 2px solid #666;
+  background: #f6f6f6;
+}
+
+ol>li:before {
+  content: counter(li);
+  /* Define um contador como conteúdo */
+  counter-increment: li;
+  /* Incrementa o contador de 1 */
+  /* Posicionamento e estilização do número */
+  position: absolute;
+  top: -2px;
+  left: -2em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 2em;
+  /* Espaçamento entre número e texto em navegadores que suportam conteúdo gerado, ams não o posicionam(Camino 2 por exemplo) */
+  margin-right: 8px;
+  padding: 4px;
+  border: 2px solid black;
+  border-radius: 30%;
+  color: #fff;
+  background: blue;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  text-align: center;
+}
+
+li ol,
+li ul {
+  margin-top: 6px;
+}
+
+ol ol li:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  font-size: 40px;
+}
+
+.modelo-de-propaganda {
+  
+}
+
+.container {
+  
+}
+
+.cont01 {
+  border: 2px solid red;
+  
+
+}
+
+.cont01 p {
+  background-color: red;
+  color: white;
+  line-height: 30px;
+  font-size: 26px;
+  border: 10px solid black;
+  width: max-content;
+  border-radius: 10px 100px 100px 10px;
+  padding: 10px 0px 10px 10px;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  
+
+  
+  
+  
+}
+
+.cont01 span {
+  background-color: yellow;
+  color: red;
+  padding: 10px 10px 10px 10px;
+  width: max-content;
+  border-radius: 10px 100px 100px 10px;
+  border: 2px dotted red;
+  background-image: url(https://jtc-fm.meta-cdn.net/upload/auto/carriers/logos/small/202.png);
+  background-position: top;
+
+
+}
+
+/*.cont02 {
+  background-color: red;
+  border-radius: 10px;
+  width: 150px;
+  height: 20px;
+  padding: 10px;
+  margin: 10px auto;
+} */

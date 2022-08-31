@@ -1,0 +1,40 @@
+body {
+    background-color: darkcyan;
+    color: whitesmoke
+}
+
+h1 {
+    background-color: darkblue;
+    width: max-content;
+    padding: 10px;
+}
+
+h2 {
+    background-color: darkgreen;
+    width: max-content;
+    padding: 10px;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 24px;
+}
+
+h3 {
+    background-color: darkolivegreen;
+    width: max-content;
+    padding: 10px;
+}
+
+.item01 {
+    background-color: blue;
+}
+
+.item02 {
+    background-color: red;
+}
+
+.item03 {
+    background-color: aquamarine;
+}
